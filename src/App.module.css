@@ -1,0 +1,17 @@
+.board{
+    width: max-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.cell{
+    width: 2em;
+    height: 2em;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: white;
+    cursor: pointer;
+}
+.cell:disabled{
+    background-color: white;
+    color:black
+}
